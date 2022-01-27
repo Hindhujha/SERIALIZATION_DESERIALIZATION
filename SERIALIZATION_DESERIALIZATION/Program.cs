@@ -13,6 +13,7 @@ namespace SERIALIZATION_DESERIALIZATION
              //obj.DeSerialization();
             JSON json = new JSON();
             json.JSON_Serialize();
+            json.JSON_DeSerialize();
         }
 
     }

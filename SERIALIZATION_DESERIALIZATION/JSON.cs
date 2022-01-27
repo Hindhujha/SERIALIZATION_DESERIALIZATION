@@ -22,6 +22,15 @@ namespace SERIALIZATION_DESERIALIZATION
             string jsonData = JsonConvert.SerializeObject(bsObj);
             Console.WriteLine(jsonData);
         }
+
+        public void JSON_DeSerialize()
+        {
+            string json = @"{'Name':'HINDHUJHA',
+                              'Description':'C SHARP PROGRAMMING'}";
+;           BlogSites bsObj = JsonConvert.DeserializeObject<BlogSites>(json);
+            Console.WriteLine(bsObj.Name);
+            Console.WriteLine(bsObj.Description);
+        }
     }
 
      [DataContract]
