@@ -9,8 +9,10 @@ namespace SERIALIZATION_DESERIALIZATION
         {
             Console.WriteLine("SERIALIZATION_DESERIALIZATION PROGRAMS");
             Serialize_Deserialize obj = new Serialize_Deserialize();
-             obj.Serialization();
-            obj.DeSerialization();
+           //  obj.Serialization();
+             //obj.DeSerialization();
+            JSON json = new JSON();
+            json.JSON_Serialize();
         }
 
     }
