@@ -14,6 +14,8 @@ namespace SERIALIZATION_DESERIALIZATION
             JSON json = new JSON();
             json.JSON_Serialize();
             json.JSON_DeSerialize();
+            Xml xml = new Xml();
+            xml.XML_Serialize();
         }
 
     }
